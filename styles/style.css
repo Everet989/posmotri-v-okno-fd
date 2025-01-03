@@ -196,9 +196,36 @@ ol {
   border: none;
 }
 
+/* left input */
+
 .search-form__label {
   display: flex;
   width: fit-content;
 }
 
 
+/* text input */
+
+.search-form__textfield {
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  background-color: transparent;
+  margin-top: 5px;
+  font-family: 'Fira Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 225px;
+  height: 27px;
+}
+
+.search-form__textfield:focus {
+  outline: none;
+}
+
+.outline-focus-selector:has(:focus-visible) {
+  outline: 1px solid white;
+  outline-offset: 3px;
+}
