@@ -1,0 +1,1 @@
+git@github.com:Everet989/posmotri-v-okno-fd.git
